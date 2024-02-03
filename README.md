@@ -1,5 +1,3 @@
-# MulFS-CAP
-
 #  MulFS-CAP: Multimodal Fusion-supervised Cross-modality Alignment Perception for Unregistered Infrared-visible Image Fusion
 
 This is official Pytorch implementation of "[MulFS-CAP: Multimodal Fusion-supervised Cross-modality Alignment Perception for Unregistered Infrared-visible Image Fusion]()"
