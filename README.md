@@ -19,7 +19,7 @@ This is official Pytorch implementation of "[MulFS-CAP: Multimodal Fusion-superv
     python test.py
 
 ## To Train
-    python traint.py
+    python train.py
 
 ## Note
 When the paper is accepted, we release the pre-trained model.
