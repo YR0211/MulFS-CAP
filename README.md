@@ -1,7 +1,8 @@
 #  MulFS-CAP
 
-### MulFS-CAP: Multimodal Fusion-supervised Cross-modality Alignment Perception for Unregistered Infrared-visible Image Fusion[IEEE TPAMI 2025]
+### MulFS-CAP: Multimodal Fusion-supervised Cross-modality Alignment Perception for Unregistered Infrared-visible Image Fusion
 By Huafeng Li; Zengyi Yang; Yafei Zhang; Wei Jia; Zhengtao Yu; Yu Liu*
+
 [paper](https://ieeexplore.ieee.org/document/10856402)
 
 ## Requirements
