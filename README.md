@@ -1,6 +1,8 @@
-#  MulFS-CAP: Multimodal Fusion-supervised Cross-modality Alignment Perception for Unregistered Infrared-visible Image Fusion
+#  MulFS-CAP
 
-This is official Pytorch implementation of "[MulFS-CAP: Multimodal Fusion-supervised Cross-modality Alignment Perception for Unregistered Infrared-visible Image Fusion]()"
+### MulFS-CAP: Multimodal Fusion-supervised Cross-modality Alignment Perception for Unregistered Infrared-visible Image Fusion[IEEE TPAMI 2025]
+By Huafeng Li; Zengyi Yang; Yafei Zhang; Wei Jia; Zhengtao Yu; Yu Liu*
+[paper](https://ieeexplore.ieee.org/document/10856402)
 
 ## Requirements
 
@@ -21,5 +23,13 @@ This is official Pytorch implementation of "[MulFS-CAP: Multimodal Fusion-superv
 ## To Train
     python train.py
 
-## Note
-When the paper is accepted, we release the pre-trained model.
+## Citation
+```
+@ARTICLE{MulFS-CAP,
+  author={Li, Huafeng and Yang, Zengyi and Zhang, Yafei and Jia, Wei and Yu, Zhengtao and Liu, Yu},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={MulFS-CAP: Multimodal Fusion-supervised Cross-modality Alignment Perception for Unregistered Infrared-visible Image Fusion}, 
+  year={2025},
+  pages={1-18}
+}
+```
