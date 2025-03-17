@@ -273,60 +273,22 @@ def train(epoch):
 
         if ((epoch + 1) == args.args.Epoch and (step + 1) % iter_num == 0) or (
                 epoch % args.args.save_model_num == 0 and (step + 1) % iter_num == 0):
-            module_name = "base"
-            save_dir = '{:s}/epoch{:d}_iter{:d}_{:s}.pth'.format(save_model_dir, epoch, step + 1,
-                                                                 module_name)
-            utils.save_state_dir(base, save_dir)
 
-            module_name = "vis_MFE"
-            save_dir = '{:s}/epoch{:d}_iter{:d}_{:s}.pth'.format(save_model_dir, epoch, step + 1,
-                                                                 module_name)
-            utils.save_state_dir(vis_MFE, save_dir)
-
-            module_name = "ir_MFE"
-            save_dir = '{:s}/epoch{:d}_iter{:d}_{:s}.pth'.format(save_model_dir, epoch, step + 1,
-                                                                 module_name)
-            utils.save_state_dir(ir_MFE, save_dir)
-
-            module_name = "PAFE"
-            save_dir = '{:s}/epoch{:d}_iter{:d}_{:s}.pth'.format(save_model_dir, epoch, step + 1,
-                                                                 module_name)
-            utils.save_state_dir(PAFE, save_dir)
-
-            module_name = "MN_vis"
-            save_dir = '{:s}/epoch{:d}_iter{:d}_{:s}.pth'.format(save_model_dir, epoch, step + 1,
-                                                                 module_name)
-            utils.save_state_dir(MN_vis, save_dir)
-
-            module_name = "MN_ir"
-            save_dir = '{:s}/epoch{:d}_iter{:d}_{:s}.pth'.format(save_model_dir, epoch, step + 1,
-                                                                 module_name)
-            utils.save_state_dir(MN_ir, save_dir)
-
-            module_name = "VISDP"
-            save_dir = '{:s}/epoch{:d}_iter{:d}_{:s}.pth'.format(save_model_dir, epoch, step + 1,
-                                                                 module_name)
-            utils.save_state_dir(VISDP, save_dir)
-
-            module_name = "IRDP"
-            save_dir = '{:s}/epoch{:d}_iter{:d}_{:s}.pth'.format(save_model_dir, epoch, step + 1,
-                                                                 module_name)
-            utils.save_state_dir(IRDP, save_dir)
-
-            module_name = "MHCSA_vis"
-            save_dir = '{:s}/epoch{:d}_iter{:d}_{:s}.pth'.format(save_model_dir, epoch, step + 1,
-                                                                 module_name)
-            utils.save_state_dir(MHCSA_vis, save_dir)
-
-            module_name = "MHCSA_ir"
-            save_dir = '{:s}/epoch{:d}_iter{:d}_{:s}.pth'.format(save_model_dir, epoch, step + 1,
-                                                                 module_name)
-            utils.save_state_dir(MHCSA_ir, save_dir)
-
-            module_name = "fusion_module"
-            save_dir = '{:s}/epoch{:d}_iter{:d}_{:s}.pth'.format(save_model_dir, epoch, step + 1,
-                                                                 module_name)
-            utils.save_state_dir(fusion_module, save_dir)
+            ckpts = {
+                "bfe": base.state_dict(),
+                "ir_mfe": ir_MFE.state_dict(),
+                "vis_mfe": vis_MFE.state_dict(),
+                "pafe": PAFE.state_dict(),
+                "mn_ir": MN_ir.state_dict(),
+                "mn_vis": MN_vis.state_dict(),
+                "ir_dgfp": IRDP.state_dict(),
+                "vis_dgfp": VISDP.state_dict(),
+                "mhcsab_ir": MHCSA_ir.state_dict(),
+                "mhcsab_vis": MHCSA_vis.state_dict(),
+                "fusion_block": fusion_module.state_dict(),
+            }
+            save_dir = '{:s}/epoch{:d}_iter{:d}.pth'.format(save_model_dir, epoch, step + 1)
+            torch.save(ckpts, save_dir)
 
     epoch_loss_correspondence_matrix_mean = np.mean(epoch_loss_correspondence_matrix)
     epoch_loss_correspondence_predict_mean = np.mean(epoch_loss_correspondence_predict)
