@@ -24,6 +24,9 @@ By Huafeng Li; Zengyi Yang; Yafei Zhang; Wei Jia; Zhengtao Yu; Yu Liu*
 ## To Train
     python train.py
 
+## Pretrained Model
+*   The pretrained model on the RoadScene dataset is as follows: [RoadScene](https://drive.google.com/drive/folders/14RwjzYiTPThZSSruAe_8XY9SAajQrlrF?usp=sharing) (Google Link)
+
 ## Citation
 ```
 @ARTICLE{MulFS-CAP,
