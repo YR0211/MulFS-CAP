@@ -3,7 +3,7 @@
 ### MulFS-CAP: Multimodal Fusion-supervised Cross-modality Alignment Perception for Unregistered Infrared-visible Image Fusion
 By Huafeng Li; Zengyi Yang; Yafei Zhang; Wei Jia; Zhengtao Yu; Yu Liu*
 
-[paper](https://ieeexplore.ieee.org/document/10856402)
+Our paper is available online! [[IEEE](https://ieeexplore.ieee.org/document/10856402)]
 
 ## Requirements
 
@@ -19,7 +19,13 @@ By Huafeng Li; Zengyi Yang; Yafei Zhang; Wei Jia; Zhengtao Yu; Yu Liu*
  
 
 ## To Test
+1.If you want to test input source images with a fixed resolution of 256x256, you can run following commands:
+    
     python test.py
+    
+2.If you want to test input source images of arbitrary resolution, you can run following commands:
+
+    python test_arbitrary_resolution.py
 
 ## To Train
     python train.py
