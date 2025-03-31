@@ -26,6 +26,7 @@ By Huafeng Li; Zengyi Yang; Yafei Zhang; Wei Jia; Zhengtao Yu; Yu Liu*
 
 ## Pretrained Model
 *   The pretrained model on the RoadScene dataset is as follows: [RoadScene](https://drive.google.com/drive/folders/14RwjzYiTPThZSSruAe_8XY9SAajQrlrF?usp=sharing) (Google Link)
+*   If you intend to evaluate the deformed images you constructed, retraining the model is recommended.
 
 ## Citation
 ```
