@@ -5,6 +5,10 @@ By Huafeng Li; Zengyi Yang; Yafei Zhang; Wei Jia; Zhengtao Yu; Yu Liu*
 
 Our paper is available online! [[IEEE](https://ieeexplore.ieee.org/document/10856402)]
 
+<div align=center>
+<img src="https://github.com/YR0211/MulFS-CAP/blob/main/overview.png" width="90%">
+</div>
+
 ## Requirements
 
  - [ ] torch  1.12.1
