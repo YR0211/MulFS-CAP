@@ -43,8 +43,10 @@ Our paper is available online! [[IEEE](https://ieeexplore.ieee.org/document/1085
 @ARTICLE{MulFS-CAP,
   author={Li, Huafeng and Yang, Zengyi and Zhang, Yafei and Jia, Wei and Yu, Zhengtao and Liu, Yu},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
-  title={MulFS-CAP: Multimodal Fusion-supervised Cross-modality Alignment Perception for Unregistered Infrared-visible Image Fusion}, 
+  title={MulFS-CAP: Multimodal Fusion-Supervised Cross-Modality Alignment Perception for Unregistered Infrared-Visible Image Fusion}, 
   year={2025},
-  pages={1-18}
+  volume={47},
+  number={5},
+  pages={3673-3690},
 }
 ```
