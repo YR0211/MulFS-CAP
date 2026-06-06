@@ -1,10 +1,14 @@
 #  MulFS-CAP
 
 ### MulFS-CAP: Multimodal Fusion-supervised Cross-modality Alignment Perception for Unregistered Infrared-visible Image Fusion [TPAMI 2025]
-By Huafeng Li; Zengyi Yang; Yafei Zhang; Wei Jia; Zhengtao Yu; Yu Liu*
+By Huafeng Li; [Zengyi Yang](https://scholar.google.com/citations?user=o36El44AAAAJ&hl=zh-CN); Yafei Zhang; Wei Jia; Zhengtao Yu; Yu Liu*
 
-Our paper is available online! [[IEEE](https://ieeexplore.ieee.org/document/10856402)]
+## 🔥 News
+- 🏅 Our paper has been recognized as an ESI Hot Paper.
+- 🏅 Our paper has been recognized as an ESI Highly Cited Paper.
+- 📄 Our paper is available online: [[IEEE Xplore](https://ieeexplore.ieee.org/document/10856402)].
 
+## Overview
 <div align=center>
 <img src="https://github.com/YR0211/MulFS-CAP/blob/main/overview.png" width="90%">
 </div>
